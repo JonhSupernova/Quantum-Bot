@@ -314,7 +314,7 @@ exports.Wlc2 = () => {
   return `Creador`
 }
 exports.Wlc3 = (num, metadata, fechaCompleta, gpdesc, nwn, nvn) => {
-  return `⚡ *Bienvenid@ @${num.split("@")[0]} a este grandioso grupo :*\n${metadata.subject}\n⚡ *Fecha de ingreso : ${fechaCompleta}*\n⚡ _*Espero y te agrade tu estancia aqui, no olvides respetar a los participantes y las reglas*_ ;)\n\n*Normas del grupo actualmente :* \n${nwn}\n${gpdesc}`
+  return `⚡ *Bienvenid@ @${num.split("@")[0]} a este grandioso grupo :3 :*\n${metadata.subject}\n⚡ *Fecha de ingreso : ${fechaCompleta}*\n⚡ _*Espero y te agrade tu estancia aqui, no olvides respetar a los participantes y las reglas*_ ;)\n\n*Normas del grupo actualmente :* \n${nwn}\n${gpdesc}`
 }
 exports.Wlc4 = () => {
   return `ADIOS... 😔`
@@ -329,7 +329,7 @@ exports.NoSpam2 = (pushname) => {
   return `[ ! ] ${pushname} Por favor no sature al bot ;-;`
 }
 exports.NoReg = (pushname) => {
-  return `[ ! ] ${pushname} Debe de registrarse para comenzar a usar al bot`
+  return `[ ! ] ${pushname} Debe de registrarte para usar el bot siuu`
 }
 exports.PreFijo = () => {
   return `Prefijo:`
@@ -379,10 +379,10 @@ exports.NoReg2 = (prefix) => {
   return `*[ ! ] No estas registrado en mi base de datos*\n\n_Ejemplo para registrarse_ :\n${prefix}rg TuNombre|TuEdad`
 }
 exports.SoloGp = () => {
-  return `*[ ! ] Este comando solo se puede usar en grupos*`
+  return `*[ ! ] T_T Este comando solo se puede usar en grupos*`
 }
 exports.SoloAdm = () => {
-  return `*[ ! ] Este comando solo puede ser usado por los administradores*`
+  return `*[ ! ] Este comando solo puede ser usado por los administradores 😎*`
 }
 exports.YaActivo = (command) => {
   return `El comando ${command} ya estuvo activo en este grupo`
