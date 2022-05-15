@@ -314,10 +314,10 @@ exports.Wlc2 = () => {
   return `Creador`
 }
 exports.Wlc3 = (num, metadata, fechaCompleta, gpdesc, nwn, nvn) => {
-  return `⚡ *Bienvenid@ @${num.split("@")[0]} a este grandioso grupo :*\n${metadata.subject}\n⚡ *Fecha de ingreso : ${fechaCompleta}*\n⚡ _*Espero y te agrade tu estancia aqui, no olvides respetar a los participantes y las reglas*_ ;)\n\n*Normas del grupo actualmente :* \n${nwn}\n${gpdesc}`
+  return `🍃 *Bienvenid@ @${num.split("@")[0]} a este grandioso grupo :*\n${metadata.subject}\n🍃 *Fecha de ingreso : ${fechaCompleta}*\n⚡ _*Espero y te agrade tu estancia aqui, no olvides respetar a los participantes y las reglas*_ ;)\n\n*Normas del grupo actualmente :* \n${nwn}\n${gpdesc}`
 }
 exports.Wlc4 = () => {
-  return `ADIOS... 😔`
+  return `Se fue porque le faltaba odió... 😔`
 }
 exports.Wlc5 = (num) => {
   return `[ ! ] C fue alv : @${num.split("@")[0]}`
@@ -345,7 +345,7 @@ exports.Limite = (pushname) => {
 *┗⊱ _${pushname} Tu limite restante es_*`
 }
 exports.NivelUp = (fechaCompleta, senderNumber, getLevel, getLevelingLevel, sender, per, getLevelingXp, role, role2) => {
-  return `「 ⚡ACTUALIZACION DE NIVEL⚡  」\n\n➸ *Fecha* : ${fechaCompleta}\n➸ *Usuario* : ${senderNumber}\n➸ *Nivel* : ${getLevel} -> ${getLevelingLevel(sender)}\n➸ *Progreso de nivel : ${per}*\n➸ *XP* : ${getLevelingXp(sender)}\n➸ *De acuerdo a tu XP pasas a ser* : ${role}\n➸ *Nivel de poder* : ${role2}\n\n⚡ *Bonificación por subir de nivel :*\n_[ + 3 de límite ]_`
+  return `「 🍃ACTUALIZACION DE NIVEL🍃  」\n\n➸ *Fecha* : ${fechaCompleta}\n➸ *Usuario* : ${senderNumber}\n➸ *Nivel* : ${getLevel} -> ${getLevelingLevel(sender)}\n➸ *Progreso de nivel : ${per}*\n➸ *XP* : ${getLevelingXp(sender)}\n➸ *De acuerdo a tu XP pasas a ser* : ${role}\n➸ *Nivel de poder* : ${role2}\n\n⚡ *Bonificación por subir de nivel :*\n_[ + 3 de límite ]_`
 }
 exports.MinGp1 = () => {
   return `Para más información comuníquese con `
@@ -405,7 +405,7 @@ exports.AdminBot = () => {
 exports.SoloCreador = () => {
   return `*[ ! ] Este comando solo puede ser usado por el dueño del bot*`
 }
-//⚡//
+//🍃//
 exports.Modo0 = () => {
   return `[ MODO 1 ]`
 }
@@ -532,7 +532,7 @@ exports.BcTodos0 = (tmap) => {
   return `Transmitiendo mensaje en ${tmap.length} chats activos\nFinalizando en ${tmap.length * 1.5} segundos`
 }
 exports.BcTodos1 = () => {
-  return `⚡ *Mensaje simultaneo compartido con exito :D*⚡`
+  return `🍃 *Mensaje simultaneo compartido con exito :D*⚡`
 }
 exports.BanUser0 = () => {
   return `Usuario baneado`
@@ -573,7 +573,7 @@ exports.PfGp1 = () => {
 }
 //🧑‍💻//
 exports.ToDos = (groupName, pushname, texto) => {
-  return `⚡ *Invocando a los integrantes del grupo* : ${groupName}\n*~> Invocador* : _${pushname}_\n*~> Mensaje* : _${texto ? texto : 'No hay :v'}_\n`
+  return `🍃 *Invocando a los integrantes del grupo🍃* : ${groupName}\n*~> Invocador* : _${pushname}_\n*~> Mensaje* : _${texto ? texto : 'No hay :v'}_\n`
 }
 exports.DarP = (usuariop, pushname) => {
   return `*El participante @${usuariop} fue convertido en administrador del grupo ✓*\n_Accion ejecutada por ${pushname}_`
@@ -585,7 +585,7 @@ exports.BanSer = (adiuser, pushname) => {
   return `*El participante @${adiuser} fue eliminado del grupo ✓*\n_Accion ejecutada por ${pushname}_`
 }
 exports.UsEnLinea = () => {
-  return `=> [ Lista de usuarios en linea ]\n=> Cantidad : `
+  return `=> [ Lista de números en liena ]\n=> Cantidad : `
 }
 //
 exports.Baneao = (senderNumber) => {
@@ -649,10 +649,10 @@ exports.CmdsH0 = () => {
   return `Hentai/Anime`
 }
 exports.CmdsH1 = () => {
-  return `La-Biblia`
+  return `La-Biblia 😈`
 }
 exports.MCmds0 = () => {
-  return `Toque Aqui ⚡`
+  return `Toque Aqui 🌙`
 }
 exports.MCmds1 = () => {
   return `Seleccione solo una opción`
